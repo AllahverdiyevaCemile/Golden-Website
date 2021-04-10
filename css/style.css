@@ -1,0 +1,258 @@
+html,
+body,
+#cover{
+    height: auto;
+  
+}
+#cover{
+    padding-bottom: 170px;
+}
+#cover{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)),url(../img/header-bg.jpg) no-repeat ;
+    background-position: 30% 30%;
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+h1{
+    margin-top: 23%;
+    margin-bottom: 30px;
+    font-style: italic;
+    font-size: 40px;
+    color: #fff;
+}
+h2{
+   
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+}
+.btn-warning{
+    padding: 15px 25px;
+}
+a.nav-link:hover{
+    color: #FEC007 !important;
+    transition: color 0.3s ease-in;
+}
+.navbar-scroll{
+    background-color: #212529 !important;
+  }
+#services{
+    padding: 120px 0px;
+}
+#services i {
+    height: 120px;
+    width: 120px;
+    border:3px solid #FEC007;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 50%;
+    color: #FEC007;
+}
+#services p{
+    color: #777;
+}
+#services i:hover {
+    height: 120px;
+    width: 120px;
+    background-color: #FEC007;
+    text-align: center;
+    line-height: 120px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+.services-top h3,
+.portfolio-top h3,
+.about-top h3,
+.team-top h3 {
+   font-weight: 700;
+}
+.services-top p,
+.portfolio-top p,
+.about-top p,
+.team-top p {
+    font-size: 20px;
+    font-style: italic;
+}
+.services-top{
+    margin-bottom: 60px;
+}
+.services-container h4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#portfolio{
+    background-color: #F8F9FA;
+    padding: 100px 0px;
+}
+
+.portfolio-content p{
+    font-style: italic;
+    font-size: 18px;
+}
+.card-block{
+    padding: 10px 0px;
+}
+
+.card{
+   
+    border: none;
+}
+.portfolio-content{
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+.about-content img{
+    border-radius: 50%;
+    border: 5px solid #f1f1ff;
+}
+.about-content .row {
+    margin-bottom: 100px;
+}
+.about-content h4{
+    font-weight: 700;
+}
+.about-content{
+    position: relative;
+}
+.about-content:before{
+    content: " ";
+    width: 4px;
+    top: 0;
+    bottom: 0;
+    background-color: #f1f1ff;
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+}
+#about{
+    padding: 100px 0px;
+}
+.about-circle{
+    position: relative;
+}
+.about-circle:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #FEC007;
+    margin-left: -100px;
+    border: 5px solid #f1f1ff;
+}
+.yellow{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+#team{
+    padding: 100px 0px;
+    background-color: #F8F9FA;
+}
+.team-content img{
+    border-radius: 50%;
+    border: 5px solid #f1f1ff;
+}
+.team-content i,
+#footer i {
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    background-color: #212529;
+    color: white;
+    line-height: 50px;
+    border-radius: 50%;
+}
+.team-content i:hover,
+#footer i:hover{
+    background-color: #FEC007;
+    transition: all 0.3s linear;
+}
+.team-container h4{
+    font-size: 30px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+.team-content p{
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.team-content img{
+    width: 250px;
+    height: 250px;
+}
+#sponsor{
+    padding: 100px 0px;
+}
+#contact{
+    background-image: url(../img/map-image.png);
+    height: auto;
+    background-color: #212529;
+    padding: 100px 0px;
+}
+.contact-top h3{
+    font-weight: 700;
+    color: white;
+}
+.contact-top p{
+    font-size: 20px;
+    font-style: italic;
+    color: #6C757D;
+}
+input{
+    padding: 32px 10px !important;
+}
+#footer{
+    padding: 30px 0px;
+}
+#footer a{
+    color: #FEC007;
+   
+}
+@media (max-width: 769px){
+    .navbar-collapse{
+        background-color: black;
+    }
+    .navbar-nav li a{
+        text-align: center;
+    }
+    .navbar-toggler{
+        border: 1px solid #FEC007 !important;
+        background-color: #FEC007 !important;
+    }
+    h1{
+        margin-top: 200px;
+        font-size: 32px;
+    }
+    h2{
+        font-size: 42px;
+    }
+    .about-content:before{
+        content: " ";
+        width: 0;
+    }
+    .about-content h4, p{
+        text-align: center;
+    }
+    .about-content img{
+        display: none;
+    }
+    .team-content .col-md-4 {
+        padding-bottom: 40px;
+    }
+    #sponsor img{
+        padding-bottom: 30px;
+        width: 100% !important;
+    }
+ 
+}
